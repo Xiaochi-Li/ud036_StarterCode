@@ -5,6 +5,11 @@ Created on Sun Jun  4 10:28:01 2017
 
 @author: lixiaochi
 """
-Class Movie:
+class Movie:
     """"""
-    
+    def __init__(self, movieName,postUrl,trailerUrl):
+        self.title =  movieName
+        self.poster_image_url = postUrl
+        self.trailer_youtube_url = trailerUrl
+        
+
