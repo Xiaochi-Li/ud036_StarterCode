@@ -24,8 +24,15 @@ justiceLeague = movie.Movie("Justice League",
                             'en/3/31/Justice_League_film_poster.jpg',
                             "https://youtu.be/3cxixDgHUYw")
 
+# the movie 
+batmanSuperman = movie.Movie("Batman v Superman",
+                             'https://upload.wikimedia.org/wikipedia/'
+                             'en/2/20/Batman_v_Superman_poster.jpg',
+                             "https://youtu.be/fis-9Zqu2Ro")
+
 # add movies to the list
 movies.append(wonderWomen)
 movies.append(justiceLeague)
+movies.append(batmanSuperman)
 
 fresh_tomatoes.open_movies_page(movies)
